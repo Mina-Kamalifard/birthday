@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://cdn.jsdelivr.net/gh/font-store/iran-nastaliq@v2.0.0/iran-nastaliq.css");
+
+body {
+  font-family: "IranNastaliq", sans-serif;
+}
+.bg {
+  background-image: url(./3.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  background: rgb(184, 201, 228);
+  background: linear-gradient(
+    0deg,
+    rgba(184, 214, 228, 0.1) 0%,
+    rgba(184, 218, 228, 0.6) 54%,
+    rgba(150, 188, 214, 0.8) 100%
+  );
+  width: 90%;
+  height: 80%;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+p {
+  color: rgb(255, 255, 255);
+
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    1px 1px 0 #000;
+}
+.title {
+  font-size: 30px;
+}
+.name {
+  font-size: 35px;
+}
+.body {
+  font-size: 25px;
+}
+.date {
+  font-size: 20px;
+}
+.time {
+  font-size: 20px;
+}
+.address {
+  font-size: 20px;
+}
