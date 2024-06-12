@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@import url("https://cdn.jsdelivr.net/gh/font-store/iran-nastaliq@v2.0.0/iran-nastaliq.css");
 
 body {
   font-family: "IranNastaliq", sans-serif;
