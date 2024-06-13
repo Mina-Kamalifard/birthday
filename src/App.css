@@ -32,6 +32,8 @@ body {
 }
 
 .container {
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: rgb(184, 201, 228);
   background: linear-gradient(
     0deg,
