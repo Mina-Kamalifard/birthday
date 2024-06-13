@@ -6,6 +6,11 @@
 
 body {
   font-family: "IranNastaliq", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg {
@@ -61,20 +66,23 @@ p {
   font-size: 25px;
   animation-delay: 0.75s;
 }
-
-.date {
-  font-size: 20px;
+.body2 {
+  font-size: 25px;
   animation-delay: 1s;
 }
-
-.time {
+.date {
   font-size: 20px;
   animation-delay: 1.25s;
 }
 
-.address {
+.time {
   font-size: 20px;
   animation-delay: 1.5s;
+}
+
+.address {
+  font-size: 20px;
+  animation-delay: 1.75s;
 }
 
 @keyframes slideDown {
