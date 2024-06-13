@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "IranNastaliq";
-  src: url("./fonts/MehrNastaliqWebRegular.ttf") format("truetype");
+  src: url("./fonts/IranNastaliq.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -32,7 +32,6 @@ body {
 }
 
 .container {
-  padding-top: 10px;
   padding-bottom: 10px;
   background: rgb(184, 201, 228);
   background: linear-gradient(
