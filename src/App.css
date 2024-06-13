@@ -10,7 +10,7 @@
   font-style: normal;
 }
 body {
-  font-family: "IranNastaliq", sans-serif;
+  font-family: "IranNastaliq";
   height: 100vh;
   overflow: hidden;
   display: flex;
